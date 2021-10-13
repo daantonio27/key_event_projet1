@@ -9,7 +9,7 @@ const Navbar = ({ show }) => {
           <MdHome /> Tableau de bord
         </li>
         <li>
-          <MdEditCalendar />
+          <MdEditCalendar style={{ color: "blue" }} />
           Evénement
         </li>
         <li>

@@ -20,9 +20,18 @@ function App() {
           <header>
             <MdMenuOpen onClick={() => setShowNav(!showNav)} />
             KEY EVENT {""}
-            <MdMessage size="1.9rem" style={{ float: "right" }} />
-            <MdNotificationImportant size="1.9rem" style={{ float: "right" }} />
-            <MdAccountBox size="1.9rem" style={{ float: "right" }} />
+            <MdMessage
+              size="1.9rem"
+              style={{ color: "blue", float: "right" }}
+            />
+            <MdNotificationImportant
+              size="1.9rem"
+              style={{ color: "blue", float: "right" }}
+            />
+            <MdAccountBox
+              size="1.9rem"
+              style={{ color: "blue", float: "right" }}
+            />
           </header>
           <NavBar show={showNav} />
           <div className="min">
